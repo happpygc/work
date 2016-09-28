@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>01.form.html</title>
+	
+    <meta name="keywords" content="keyword1,keyword2,keyword3">
+    <meta name="description" content="this is my page">
+    <meta name="content-type" content="text/html; charset=UTF-8">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+  </head>
+  
+  <body>
+  <form action="02.image.html" method="post">
+  	<input type="button" value="提交">
+  
+  </form>
+  <script type="text/javascript">
+  //定位提交按钮，
+  	var inputElement = document.getElementsByTagName("input")[0];
+  	inputElement.onclick = function(){
+  			//定位form标签,forms表示document对象中所有表单的集合
+  			var formElement = document.forms[0];
+  			formElement.submit();
+  	
+  	}
+  	
+  	
+  
+  
+  </script>
+  
+    </body>
+</html>
