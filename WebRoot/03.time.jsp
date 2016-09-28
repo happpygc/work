@@ -87,35 +87,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		</script>
 		
 		  静态文本</br>
-		  静态文本</br>
-		  静态文本</br>
-		  静态文本</br>
-		  静态文本</br>
-		  静态文本</br>
-		  静态文本</br>
-		  静态文本</br>
-		  静态文本</br>
-		  静态文本</br>
-		  静态文本</br>
-		  静态文本</br>
-		  静态文本</br>
-		  静态文本</br>
-		  静态文本</br>
-		  静态文本</br>
-		  静态文本</br>
-		  静态文本</br>
-		  静态文本</br>
-		  静态文本</br>
-		  静态文本</br>
-		  静态文本</br>
-		  静态文本</br>
-		  静态文本</br>
-		  静态文本</br>
-		  静态文本</br>
-		  静态文本</br>
-		  静态文本</br>
-		  静态文本</br>
-		  静态文本</br>
+	
+
+	
 
   </body>
 </html>
