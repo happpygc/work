@@ -5,12 +5,12 @@
 ### 代码
 '''
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Scanner;
+	import java.util.ArrayList;
+	import java.util.Iterator;
+	import java.util.List;
+	import java.util.Scanner;
 
-public class thoughtworks {
+	public class thoughtworks {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -150,6 +150,6 @@ public class thoughtworks {
 		return false;
 	}
 	
-}
+	}
 
 '''
