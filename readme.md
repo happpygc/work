@@ -18,6 +18,7 @@
 		String line2 = sc.nextLine();
 		processNet(line1,line2);
 	}
+	//line1表示测试案例的第一行，line2表示测试案例的第二行
 	private static void processNet(String line1,String line2) {
 		
 		String[] shape = line1.split(" ");
@@ -84,9 +85,9 @@
 		}
 	}
 	/*
-	 * 返回1，表示连通
-	 * 0表示是相邻节点，暂时不能连通（可能所给的一个或者两个节点都是墙）
-	 * -1，
+	 * 1，表示连通
+	 * 0，表示是相邻节点，暂时不能连通（可能所给的一个或者两个节点都是墙）
+	 * -1，表示有错误，错误原因已经打印
 	 */
 	private static int  helper(String [][] net,String s,int row,int col) {
 		String[] nodes = s.split(" ");
@@ -142,7 +143,7 @@
 			return -1;			
 		}
 	}
-
+	//验证一组输入是否合格（只验证范围）
 	private static  boolean validateNum(int x1,int x2,int y1,int y2,int min,int row,int col) {
 		if(x1<row && x1>min && x2<row && x2>min && y1<col && y1>min && y2<col && y2>min ) {
 			return true;
