@@ -8,9 +8,9 @@
 - 3.文本3
 - 4.文本4
 #### 有序列表
-1.demo
-2.demo
-3.demo
+1. demo
+2. demo
+3. demo
 
 #### 图片demo
 ![](https://www.baidu.com/img/bd_logo1.png?where=super)
